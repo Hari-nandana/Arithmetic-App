@@ -1,0 +1,39 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="70px"
+    android:gravity="center"
+    android:background="#C0F2C2"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FIND LARGEST"
+        android:background="#1B31A7"
+        android:textColor="@color/white"
+        android:layout_margin="10px"
+        android:textStyle="bold"
+        android:id="@+id/large"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FIND SMALLEST"
+        android:background="#1B31A7"
+        android:textColor="@color/white"
+        android:layout_margin="10px"
+        android:textStyle="bold"
+        android:id="@+id/small"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FIND EVEN/ODD"
+        android:background="#1B31A7"
+        android:textColor="@color/white"
+        android:layout_margin="10px"
+        android:textStyle="bold"
+        android:id="@+id/even"/>
+
+</LinearLayout>
